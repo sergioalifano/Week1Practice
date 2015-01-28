@@ -129,7 +129,7 @@ namespace Week1Practice
                 numberOfLetters = 0;
                 word = productList[i];
                 //loop to scan the item of the list
-                for (int z = 0; z < word.Length; z++)
+                for (int z = 0; z < productList[i].Length; z++)
                 {
                     //we don't count spaces between words
                     if (word[z] != ' ')
